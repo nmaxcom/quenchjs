@@ -8,7 +8,8 @@ var gulp = require('gulp'),
   rename = require('gulp-rename'),
   concat = require('gulp-concat'),
   minifycss = require('gulp-minify-css'),
-  uglify = require('gulp-uglify');
+  uglify = require('gulp-uglify'),
+  postcss = require('gulp-postcss');
 
 gulp.task('browser-sync', function() {
   browserSync({
